@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #0B9586;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0px;
+}
+nav img{
+    width: 157px;
+    height: 54px;
+    opacity: 0.4;
+}
+.links a{
+    margin-right: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.home{
+    box-shadow: 0px 2px 4px black;
+    padding: 5px 15px;
+}
+.call{
+    color: white;
+}
+.call p{
+    text-align: right;
+}
+.call span{
+    font-size: 24px;
+}
+header{
+    background-image: url('./images/solar-panels-meadow\ 1.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    
+    height: 100vh;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.slider .blackSlider{
+    width: 220px;
+    border-top: 3px solid #575757;
+    margin: 0px 20px;
+    /* position: relative; */
+}
+
+.slider .whiteSlider{
+
+    width: 90px;
+    border-top: 2px solid white;
+    position: absolute;
+    top: 50%;
+}
+.text{
+    color: white;
+    width: 729px;
+}
+.text h1{
+    font-size: 52px;
+    margin-bottom: 30px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 600px;
+}
+.btns{
+    font-size: 14px;
+}
+.call-btn{
+    /* border-radius: 20%; */
+    background-color: #3CAB90;
+    margin-right: 20px;
+    width:208px;
+    height:41px;
+    border: none;
+    padding:12px, 34px, 12px, 34px;
+    color: white;
+    border-radius: 109px
+}
+
+.request-btn{
+    width:208px;
+    height:41px;
+    border: none;
+    padding: 12px 34px 12px 34px;
+    background-color: #FFBB1C;
+    border-radius: 109px;
+}
+
+.friendlist{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.friendlist-text{
+    width: 590px !important;
+    margin-top: 50px;
+    
+}
+.friendlist-text h2{
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.friendlist-text .solar{
+    font-size: 16px;
+    color:#475467;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.points span{
+    font-size: 20px;
+    color: #84BD3A;
+}
+.points p{
+    line-height: 30px;
+}
+
+.friendlist-image{
+    position: relative;
+    margin-top: 50px;
+}
+.small-image{
+    position: absolute;
+    bottom: 4%;
+    left: -50px;
+}
+
+.power{
+    background-image: url('./images/8116\ 1.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    height: 100vh;
+    margin: 60px 0px;
+}
+.power .text h1{
+    font-size: 42px;
+}
+
+.solar{
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+.kits h2{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.kits p{
+    font-size:16px ;
+    color: #475467;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.card{
+    box-shadow: 0px 4px 30px 0px #0000000D;
+    margin-right: 20px;
+}
+.card h4 ,p ,.view-product{
+    padding: 10px;
+}
+.view-product{
+    position: relative;
+}
+.view-product span{
+    font-size: 16px;
+    color: #0B9586;
+    margin-right: 5px;
+    
+}
+.view-product img{
+    position: absolute;
+    top: 24%;
+}
+.repairs{
+    background-image: url('./images/8116\ 1\ \(1\).png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    
+    height: 100vh;
+}
+
+.repairs-text{
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 44px;
+    width: 858px;
+    margin: auto;
+}
+.repairs-text h2{
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.repairs-text p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.energy{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    background-color:rgba(255, 187, 28, 0.05);
+    padding-bottom: 30px;
+    margin-bottom:40px;
+}
+.energy-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.energy-card{
+    width: 300px;
+    border: 1px solid rgba(60, 171, 144, 0.5);
+    border-radius: 15px;
+    background: rgba(60, 171, 144, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+
+}
+.energy-card .icon{
+    width: 100%;
+}
+.energy-text{
+    margin: 40px 20px;
+}
+.energy-text h2{
+    font-size: 42px;
+    margin-bottom: 7px;
+}
+
+.energy-text p{
+    font-size: 18px;
+    color: #475467;
+
+}
+
+.value-cards{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+.value-card{
+    width: 300px;
+    border: 1px solid rgba(60, 171, 144, 0.5);
+    border-radius: 15px;
+    background: rgba(60, 171, 144, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
+.value-card h3{
+    margin-top: 10px;
+}
+.value-card p{
+    color: #475467;
+}
+
+.woc{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    padding-bottom: 30px;
+    margin-bottom:40px;
+    margin-top: 50px;
+}
+.what{
+    width: 710px;
+    border: 1px solid rgba(60, 171, 144, 0.5);
+    border-radius: 15px;
+    background: rgba(60, 171, 144, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
+.say{
+
+    display: flex;
+    justify-content: space-between;
+    color:#0B9586;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.what-text{
+    font-size: 24px;
+    width: 516px;
+    line-height: 36px;
+    margin-bottom: 50px;
+    color:rgba(16, 24, 40, 1);
+}
+.designer{
+    display: flex;
+    justify-content: space-between;
+}
+.designer-img{
+    display: flex;
+}
+.designer-text h5{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.arrows img{
+    margin-right: 10px;
+}
+
+footer{
+    background: rgba(40, 54, 70, 1);
+    color: white;
+}
+.titles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+    border-bottom: 1px solid rgb(138, 137, 135);
+    width: 1140px;
+    margin: auto;
+}
+.left-titles img{
+    margin-bottom: 20px;
+}
+.titles-links a{
+    margin-right: 20px;
+    font-size: 16px;
+}
+.right-titles{
+    text-align: left;
+    position: relative;
+}
+
+input{
+    background: transparent;
+    border-radius: 40px;
+    width: 406px;
+    padding: 12px 34px 12px 34px;
+    border: 1px solid rgba(179, 189, 199, 1)
+}
+.right-titles button{
+    background: rgba(255, 187, 28, 1);
+    width: 147px;
+    height: 48px;
+    padding: 14px 34px 14px 34px;
+    gap: 10px;
+    border-radius: 109px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 38px;
+    
+}
+.terms{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+    color: rgba(146, 152, 159, 1);
+
+}

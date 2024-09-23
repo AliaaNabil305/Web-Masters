@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="slider">
+        <div class="slides">
+            <img src="./images/img_5terre_wide.jpg"/>
+        </div>
+        <div class="slides">
+            <img src="./images/img_lights_wide.jpg"/>
+        </div>
+        <div class="slides">
+            <img src="./images/img_mountains_wide.jpg"/>
+        </div>
+        <div class="slides">
+            <img src="./images/img_nature_wide.jpg"/>
+        </div>
+        <div class="slides">
+            <img src="./images/img_snow_wide.jpg"/>
+        </div>
+        <div class="slides">
+            <img src="./images/img_woods_wide.jpg"/>
+        </div>
+
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+
+        <div class="row">
+            <div class="col">
+                <img class="pagination" onclick="currentSlide(1)" src="./images/img_5terre_wide.jpg" style="width: 100%;"/>
+            </div>
+            <div class="col">
+                <img class="pagination" onclick="currentSlide(2)" src="./images/img_lights_wide.jpg" style="width: 100%;"/>
+            </div>
+            <div class="col">
+                <img class="pagination" onclick="currentSlide(3)" src="./images/img_mountains_wide.jpg" style="width: 100%;"/>
+            </div>
+            <div class="col">
+                <img class="pagination" onclick="currentSlide(4)" src="./images/img_nature_wide.jpg" style="width: 100%;"/>
+            </div>
+            <div class="col">
+                <img class="pagination" onclick="currentSlide(5)" src="./images/img_snow_wide.jpg" style="width: 100%;"/>
+            </div>
+            <div class="col">
+                <img class="pagination" onclick="currentSlide(6)" src="./images/img_woods_wide.jpg" style="width: 100%;"/>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
