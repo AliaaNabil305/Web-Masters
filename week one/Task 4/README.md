@@ -1,4 +1,4 @@
-## My Advanced Blog
+# My Advanced Blog
 This is an advanced blog project that demonstrates a responsive blog page built with HTML, CSS, and Bootstrap. It includes a dynamic "Back to Top" button and uses Bootstrap's grid system for layout management.
 
 
