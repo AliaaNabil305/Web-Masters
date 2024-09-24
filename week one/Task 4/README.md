@@ -13,6 +13,6 @@ This is an advanced blog project that demonstrates a responsive blog page built 
 
 ## Technologies Used
 - **HTML5**
- **CSS3** (with custom styles in style.css)
+- **CSS3** (with custom styles in style.css)
 - **Bootstrap 5** for responsive design and components
   
