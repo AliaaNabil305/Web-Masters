@@ -10,3 +10,9 @@ This is an advanced blog project that demonstrates a responsive blog page built 
 - **Sidebar:** Includes useful links, recent posts, and an about section.
 - **Contact Form:** A simple form for users to get in touch with the blog author.
 - **Back to Top Button:** A floating button that appears when the user scrolls down, allowing them to return to the top of the page.
+
+## Technologies Used
+- **HTML5**
+ **CSS3** (with custom styles in style.css)
+- **Bootstrap 5** for responsive design and components
+  
