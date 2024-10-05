@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.interior{
+
+    font-family: Inter;
+font-size: 133px;
+font-weight: 500;
+line-height: 160.96px;
+text-align: left;
+
+}
+.interior-text{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 42.12px;
+    text-align: left;
+    width: 759px;
+    height: 168px;
+    top: 203px;
+    left: 8px;
+    gap: 0px;
+    opacity: 0px;
+}
+.interior-btn{
+    width: 302px;
+    height: 86px;
+    top: 473px;
+    left: 8px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+
+}
+.parts{
+    text-align: left;
+    margin-left: 0px;
+}
+.parts h3{
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 84.72px;
+    text-align: center;}
+
+.parts p{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 26.63px;
+text-align: center;
+
+}    
+.image-col{
+    position: relative;
+}
+.square{
+    border: 2px solid rgba(31, 31, 31, 1);
+    position: absolute;
+    left: -88%;
+    top: 50%;
+    width: 150px;
+height: 150px;
+
+}
+.arrow-img{
+    position: absolute;
+    right: -60px;
+    bottom: -288px;
+}
+.sofa-img{
+    position: absolute;
+    left: -200px;
+}
+.service-border{
+    width: 100px;
+    height: 0px;
+    opacity: 0px;
+    border: 2px solid rgba(31, 31, 31, 1)
+}
+.more{
+    border-bottom: 1px solid rgb(199, 195, 195);
+}
+.card-text{
+    line-height: 30px;
+}
+.customers{
+    position: relative;
+}
+.cards{
+    position: absolute;
+    right: 160px;
+    top: 200px;
+
+}
+input{
+    position: relative;
+}
+.input-btn{
+    position: absolute;
+    right: 150px;
+    border-radius: 0px !important;
+}
+footer{
+    position: relative;
+}
+.input-subscribe{
+    position: absolute;
+    top: -30px;
+    left: 300px;
+    
+}
+.list-unstyled a{
+    list-style: none;
+    text-decoration: none;
+}
